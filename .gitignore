@@ -1,0 +1,13 @@
+__pycache__/
+toolchain/
+dist/
+*.keystore
+*.jks
+*.apk
+*.idsig
+reference/
+build/
+.gradle/
+local.properties
+.env
+.env.*

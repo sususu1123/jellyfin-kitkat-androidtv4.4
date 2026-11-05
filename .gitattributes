@@ -1,0 +1,4 @@
+* text=auto eol=lf
+*.png binary
+ICON_LICENSE.txt -whitespace
+app/assets/ICON_LICENSE.txt -whitespace

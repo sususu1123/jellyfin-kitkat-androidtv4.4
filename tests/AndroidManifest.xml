@@ -1,0 +1,6 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="org.jellyfin.kitkat.tests" android:versionCode="1" android:versionName="1">
+    <uses-sdk android:minSdkVersion="19" android:targetSdkVersion="19" />
+    <application android:label="KitKat playback tests" />
+    <instrumentation android:name=".SeekInstrumentation" android:targetPackage="org.jellyfin.kitkat" android:label="HLS seeking regression" />
+    <instrumentation android:name=".GridInstrumentation" android:targetPackage="org.jellyfin.kitkat" android:label="Grid navigation regression" />
+</manifest>
